@@ -9,7 +9,6 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 gem 'mysql2'
-gem 'ckeditor', '~> 4.1'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
@@ -20,8 +19,6 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'simple_form', '~> 3.2'
-gem 'bootstrap-sass', '~> 3.3'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -29,6 +26,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -52,4 +50,7 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'ckeditor', '~> 4.1'
+gem 'simple_form', '~> 3.2'
+gem 'bootstrap-sass', '~> 3.3'

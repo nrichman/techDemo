@@ -1,8 +1,8 @@
 # SQLite version 3.x
-#   gem install sqlite3
+#   gem install mysql2
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
+#   gem 'mysql2'
 #
 default: &default
   adapter: mysql2
@@ -13,7 +13,7 @@ default: &default
   host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
-#  database: db/production.sqlite3
+#  database: db/production.mysql2
 #  adapter: sqlite3
 #  pool: 5
 #  timeout: 5000
@@ -27,7 +27,6 @@ development:
   host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
-#  database: db/production.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -41,7 +40,6 @@ test:
   host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
-#  database: db/production.sqlite3
 
 production:
   adapter: mysql2
@@ -53,4 +51,3 @@ production:
   port: 3306
 
 #  <<: *default
-#  database: db/production.sqlite3

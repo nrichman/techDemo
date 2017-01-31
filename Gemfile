@@ -12,6 +12,7 @@ gem 'rails', '~> 5.0.1'
 #gem 'sqlite3'
 gem 'mysql'
 gem 'mysql2'
+gem 'ckeditor', '~> 4.1'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets

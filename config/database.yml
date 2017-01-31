@@ -7,10 +7,10 @@
 default: &default
   adapter: mysql2
   encoding: utf8
-  database: aaaomvy04tkzf6
-  username: ebroot
+  database: mydb
+  username: nrichman 
   password: neia7073
-  host: aaaomvy04tkzf6.ciykatdezgmo.us-west-2.rds.amazonaws.com
+  host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
 #  database: db/production.sqlite3
@@ -21,10 +21,10 @@ default: &default
 development:
   adapter: mysql2
   encoding: utf8
-  database: aaaomvy04tkzf6
-  username: ebroot
+  database: mydb
+  username: nrichman
   password: neia7073
-  host: aaaomvy04tkzf6.ciykatdezgmo.us-west-2.rds.amazonaws.com
+  host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
 #  database: db/production.sqlite3
@@ -35,10 +35,10 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: aaaomvy04tkzf6
-  username: ebroot
+  database: mydb
+  username: nrichman
   password: neia7073
-  host: aaaomvy04tkzf6.ciykatdezgmo.us-west-2.rds.amazonaws.com
+  host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
 #  <<: *default
 #  database: db/production.sqlite3
@@ -46,10 +46,11 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: aaaomvy04tkzf6
-  username: ebroot
+  database: mydb
+  username: nrichman
   password: neia7073
-  host: aaaomvy04tkzf6.ciykatdezgmo.us-west-2.rds.amazonaws.com
+  host: database.ciykatdezgmo.us-west-2.rds.amazonaws.com
   port: 3306
+
 #  <<: *default
 #  database: db/production.sqlite3
